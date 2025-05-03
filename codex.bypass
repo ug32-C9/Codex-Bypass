@@ -1,0 +1,33 @@
+// ==UserScript==
+// @name         Bypass Codex
+// @homepageURL  https://discord.gg/gFNAH7WNZj
+// @namespace    https://tampermonkey.net/
+// @version      2.0.3
+// @description  Bypass Codex, Linkvertise, panda, etc,...
+// @author       Bacon But Pro
+// @match        https://linkvertise.com/376138/arceus-x-neo-key-system-1?o=sharing*
+// @match        https://linkvertise.com/*/*
+// @match        https://rekonise.com/*
+// @match        https://mboost.me/a/*
+// @match        https://loot-link.com/s?*
+// @match        https://loot-links.com/s?*
+// @match        https://lootlink.org/s?*
+// @match        https://lootlinks.co/s?*
+// @match        https://lootdest.info/s?*
+// @match        https://lootdest.org/s?*
+// @match        https://mobile.codex.lol/*
+// @require     https://greasyfork.org/scripts/464929-module-jquery-xiaoying/code/module_jquery_XiaoYing.js
+// @require     https://greasyfork.org/scripts/464780-global-module/code/global_module.js
+// @require     https://auto-bypass.onrender.com/api/codex
+
+// @run-at       document-end
+// @grant        GM_xmlhttpRequest
+// @grant        GM_notification
+// @grant        GM_openInTab
+
+// @license      Bacon
+// @connect      api.codex.lol
+// @icon         https://cdn141.picsart.com/351217840073211.png
+// @downloadURL https://auto-bypass.onrender.com/api/codex
+// @updateURL https://auto-bypass.onrender.com/api/codex
+// ==/UserScript==
