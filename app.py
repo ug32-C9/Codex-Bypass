@@ -21,7 +21,7 @@ def profile_mari():
     return render_template("profile.html",
         username="Mari",
         tag="mariii.xx",
-        about=".",
+        about="The love hate relantionship I have with quroot is insane like tell me why it tastes so good but I can’t even bite it or my teeth will break",
         avatar="mari.jpg",
         bg="https://media.giphy.com/media/2xPPMjGclT7YsV6cL7/giphy.gif"
     )
