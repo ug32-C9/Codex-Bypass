@@ -1,9 +1,10 @@
 from flask import Flask, request, render_template, jsonify
 import requests
+import re
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def index():
     return render_template("index.html")
 
@@ -23,4 +24,4 @@ def resolve_url():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
