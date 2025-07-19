@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Velonix Bypass</title>
+    <script defer src="/static/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #2b1055, #7597de);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        input[type="text"] {
+            width: 400px;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            outline: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        button {
+            margin-left: 10px;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
+            background-color: #00d4ff;
+            color: #111;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #00b2d3;
+        }
+        #result {
+            margin-top: 30px;
+            font-size: 1.1rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .stars {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: url('https://raw.githubusercontent.com/kevin-powell/stars-animation/main/stars.png') repeat;
+            animation: moveStars 100s linear infinite;
+            opacity: 0.4;
+        }
+        @keyframes moveStars {
+            from { background-position: 0 0; }
+            to { background-position: 10000px 10000px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <h1>Velonix Bypass</h1>
+    <div>
+        <input type="text" id="urlInput" placeholder="Link to Bypass...">
+        <button onclick="resolveURL()">Bypass</button>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
