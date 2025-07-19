@@ -12,7 +12,7 @@ def profile_itzc9():
         username="itzC9",
         tag="ug_32",
         about="That one girl, restored my life.",
-        avatar="itzC9.jpg",
+        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
@@ -22,7 +22,7 @@ def profile_mari():
         username="Mari",
         tag="mariii.xx",
         about="The love hate relantionship I have with quroot is insane like tell me why it tastes so good but I can’t even bite it or my teeth will break",
-        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg?ex=687cf092&is=687b9f12&hm=33640e175ed80883b720d8922accec355d6bd66b271fb61b91881a6dc6f5b213&",
+        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
@@ -32,7 +32,7 @@ def profile_good():
         username="good",
         tag="goodgamerYTbro",
         about="Script developer and silent system builder. Good is reliable, focused, and thrives in the chaos of code.",
-        avatar="good.jpg",
+        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg",
         bg="https://media.giphy.com/media/l0HlQ7LRalGq4fXvC/giphy.gif"
     )
 
@@ -42,7 +42,7 @@ def profile_blaze():
         username="Blaze",
         tag="echo_blaze",
         about="",
-        avatar="blaze.jpg",
+        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lpOHZpaWJ5Z2V0aHZia3kxY3d2ZXp4bnJ3Yjk3NzR5Nm5waHFkaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fGcRY5kYW4UGsn2kG/giphy.gif"
     )
 
