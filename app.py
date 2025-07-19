@@ -11,7 +11,7 @@ def profile_itzc9():
     return render_template("profile.html",
         username="itzC9",
         tag="ug_32",
-        about="itzC9 is a Roblox Coder since 2022. Once an exploiter, now an Exploiter Destroyer. Proud CEO of QuertzClient. Loyal to one queen — Mari.",
+        about="That one girl, restored my life.",
         avatar="https://cdn.discordapp.com/attachments/yourchannel/itzc9.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
@@ -21,7 +21,7 @@ def profile_mari():
     return render_template("profile.html",
         username="Mari",
         tag="mariii.xx",
-        about="Mari is a brilliant, soft-hearted queen. Designer. Builder. Dreamer. She's the heart behind itzC9 — and together, they rule not just code, but loyalty.",
+        about=".",
         avatar="https://cdn.discordapp.com/attachments/yourchannel/mari.jpg",
         bg="https://media.giphy.com/media/2xPPMjGclT7YsV6cL7/giphy.gif"
     )
@@ -41,7 +41,7 @@ def profile_blaze():
     return render_template("profile.html",
         username="Blaze",
         tag="echo_blaze",
-        about="Stealth is his name. Blaze builds silent executors and Lua-based weapons to dominate the dark corners of Roblox.",
+        about="",
         avatar="https://cdn.discordapp.com/attachments/yourchannel/blaze.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lpOHZpaWJ5Z2V0aHZia3kxY3d2ZXp4bnJ3Yjk3NzR5Nm5waHFkaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fGcRY5kYW4UGsn2kG/giphy.gif"
     )
