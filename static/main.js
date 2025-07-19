@@ -27,4 +27,4 @@ async function resolveURL() {
         resultDiv.textContent = "⚠️ Something went wrong.";
         console.error(err);
     }
-      }
+}
