@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, jsonify
 import requests
-import re
 
 app = Flask(__name__)
 
@@ -8,20 +7,21 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/api/resolve", methods=["POST"])
-def resolve_url():
-    data = request.get_json()
-    url = data.get("url")
+@app.route("/itzC9")
+def profile_itzc9():
+    return render_template("profile.html", username="itzC9", tag="ug_32", about="itzC9 is Roblox Coder back in 2022. Used to exploit games. But now back – not as an exploiter, but as Exploiter Destroyer. Proud CEO of Velonix-Studio!", avatar="itzC9.jpg")
 
-    if not url:
-        return jsonify({"error": "No URL provided"}), 400
-    try:
-        parts = url.rsplit('/', 1)
-        last_digit = parts[-1]
-        modified_url = url.replace('/' + last_digit, '/3')
-        return jsonify({"result": modified_url})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+@app.route("/Mari")
+def profile_mari():
+    return render_template("profile.html", username="Mari", tag="mari", about=".", avatar="mari.jpg")
+
+@app.route("/good")
+def profile_good():
+    return render_template("profile.html", username="good", tag="goodgamerYTbro", about="Script developer and helper. Working on Velonix Scripts.", avatar="good.jpg")
+
+@app.route("/Blaze")
+def profile_blaze():
+    return render_template("profile.html", username="Blaze", tag="echo_blaze", about="Web Developer, Loves Gay Person and Lua scripts.", avatar="blaze.jpg")
 
 if __name__ == "__main__":
     app.run(debug=False)
