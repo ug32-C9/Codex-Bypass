@@ -12,7 +12,7 @@ def profile_itzc9():
         username="itzC9",
         tag="ug_32",
         about="That one girl, restored my life.",
-        avatar="itzc9.jpg",
+        avatar="itzC9.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
@@ -26,7 +26,7 @@ def profile_mari():
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
-@app.route("/good")
+@app.route("/Good")
 def profile_good():
     return render_template("profile.html",
         username="good",
