@@ -12,7 +12,7 @@ def profile_itzc9():
         username="itzC9",
         tag="ug_32",
         about="She restored me.",
-        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg"
+        avatar="itzC9.jpg"
     )
 
 @app.route("/mariii.xx")
@@ -21,7 +21,7 @@ def profile_mari():
         username="Mari",
         tag="mariii.xx",
         about="The love hate relantionship I have with quroot is insane like tell me why it tastes so good but I can’t even bite it or my teeth will break",
-        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg"
+        avatar="mari.jpg"
     )
 
 @app.route("/Good")
@@ -30,7 +30,7 @@ def profile_good():
         username="good",
         tag="goodgamerYTbro",
         about="Script developer and silent system builder. Good is reliable, focused, and thrives in the chaos of code.",
-        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg"
+        avatar="good.jpg"
     )
 
 @app.route("/Blaze")
@@ -39,7 +39,7 @@ def profile_blaze():
         username="Blaze",
         tag="echo_blaze",
         about="",
-        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg"
+        avatar="blaze.jpg"
     )
 
 if __name__ == "__main__":
