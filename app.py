@@ -22,7 +22,7 @@ def profile_mari():
         username="Mari",
         tag="mariii.xx",
         about="The love hate relantionship I have with quroot is insane like tell me why it tastes so good but I can’t even bite it or my teeth will break",
-        avatar="mari.jpg",
+        avatar="https://cdn.discordapp.com/attachments/1387996706074792016/1396123221685833798/mari.jpg?ex=687cf092&is=687b9f12&hm=33640e175ed80883b720d8922accec355d6bd66b271fb61b91881a6dc6f5b213&",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
