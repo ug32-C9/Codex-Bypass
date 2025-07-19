@@ -12,7 +12,7 @@ def profile_itzc9():
         username="itzC9",
         tag="ug_32",
         about="That one girl, restored my life.",
-        avatar="https://raw.githubusercontent.com/ug32-C9/Codex-Bypass/refs/heads/main/static/itzC9.jpg",
+        avatar="itzC9.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZmZTVnaGd2bTU2dzhvdW5uYW00dmJmNm1kaDB5eTh2Z2JtazdyNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/11JTxkrmq4bGE0/giphy.gif"
     )
 
@@ -22,7 +22,7 @@ def profile_mari():
         username="Mari",
         tag="mariii.xx",
         about=".",
-        avatar="https://raw.githubusercontent.com/ug32-C9/Codex-Bypass/refs/heads/main/static/mari.jpg",
+        avatar="mari.jpg",
         bg="https://media.giphy.com/media/2xPPMjGclT7YsV6cL7/giphy.gif"
     )
 
@@ -32,7 +32,7 @@ def profile_good():
         username="good",
         tag="goodgamerYTbro",
         about="Script developer and silent system builder. Good is reliable, focused, and thrives in the chaos of code.",
-        avatar="https://raw.githubusercontent.com/ug32-C9/Codex-Bypass/refs/heads/main/static/good.jpg",
+        avatar="good.jpg",
         bg="https://media.giphy.com/media/l0HlQ7LRalGq4fXvC/giphy.gif"
     )
 
@@ -42,9 +42,9 @@ def profile_blaze():
         username="Blaze",
         tag="echo_blaze",
         about="",
-        avatar="https://cdn.discordapp.com/attachments/yourchannel/blaze.jpg",
+        avatar="blaze.jpg",
         bg="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3lpOHZpaWJ5Z2V0aHZia3kxY3d2ZXp4bnJ3Yjk3NzR5Nm5waHFkaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1fGcRY5kYW4UGsn2kG/giphy.gif"
     )
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
